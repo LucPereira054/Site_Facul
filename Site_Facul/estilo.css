@@ -1,0 +1,21 @@
+body {
+    background-image: url("img/persona-5-joker-red-desktop-wallpaper.jpg");
+    background-size: 100% 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lg {
+    background-color: #4d5c61;
+    /* azul claro */
+    color: #000;
+    /* texto escuro para legibilidade */
+}
+
+body {
+  overflow-x: hidden; /* Oculta apenas a barra de rolagem horizontal */
+}
