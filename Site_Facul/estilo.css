@@ -21,6 +21,6 @@ body {
     /* Oculta apenas a barra de rolagem horizontal */
 }
 
-p {
+.p {
     float: left;
 }
