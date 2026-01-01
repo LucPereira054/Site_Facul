@@ -17,5 +17,10 @@ body {
 }
 
 body {
-  overflow-x: hidden; /* Oculta apenas a barra de rolagem horizontal */
+    overflow-x: hidden;
+    /* Oculta apenas a barra de rolagem horizontal */
+}
+
+p {
+    float: left;
 }
