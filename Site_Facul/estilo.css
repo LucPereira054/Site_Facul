@@ -1,7 +1,14 @@
 body {
-    background-image: url("img/persona-5-joker-red-desktop-wallpaper.jpg");
-    background-size: 100% 100%;
+    background-image: url("img/fundo vermelho_preto_Branco.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    /* Oculta apenas a barra de rolagem horizontal */
 }
+
+/* ...existing code... */
 
 .img-fluid {
     max-width: 100%;
@@ -9,26 +16,73 @@ body {
     display: block;
 }
 
-.lg {
-    background-color: #4d5c61;
-    /* azul claro */
-    color: #000;
-    /* texto escuro para legibilidade */
-}
-
-body {
-    overflow-x: hidden;
-    /* Oculta apenas a barra de rolagem horizontal */
-}
-
-.p {
-    float: left;
-}
-
-.lg {
-    float: left;
-}
-
+/* cabeçalhos e títulos */
 .fs-1 {
-    float: left;
+    /* ...existing code... */
+    float: none;
+    /* remover float problemático */
+    display: block;
+    text-align: center;
+    color: #E6D818;
+    /* cor amarela legível */
+    margin: 0.6rem auto;
+}
+
+/* parágrafos destacáveis */
+.lg {
+    /* (substitui o fundo sólido por translúcido para contraste e legibilidade) */
+    background-color: rgba(77, 92, 97, 0.85);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 0.6rem auto;
+    text-align: center;
+    float: none;
+    display: inline-block;
+}
+
+/* geral para parágrafos normais */
+.p {
+    float: center;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+/* Cards: fundo translúcido escuro, texto claro e centralizados */
+.card {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #fff !important;
+    margin: 0.6rem auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    /* width: 18rem; <- muitas cards já têm style inline; mantemos a opção inline */
+}
+
+.card .card-body {
+    color: #fff;
+}
+
+/* imagens das cards centralizadas e responsivas */
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.4rem auto;
+    border-radius: 4px;
+}
+
+/* Navbar: garantir links legíveis */
+.navbar .nav-link {
+    color: #f1f1f1 !important;
+}
+
+/* pequenas melhorias responsivas */
+@media (max-width: 767px) {
+
+    .lg,
+    .fs-1 {
+        max-width: 95%;
+    }
 }
