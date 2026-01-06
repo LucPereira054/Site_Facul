@@ -44,7 +44,7 @@ body {
 
 /* geral para parágrafos normais */
 .p {
-    float: none;
+
     /* remover float */
     text-align: center;
     color: #f1f1f1;
@@ -60,7 +60,7 @@ body {
 
 /* títulos */
 .fs-1 {
-    float: none;
+
     display: block;
     text-align: center;
     margin: 0.6rem auto;
@@ -68,7 +68,7 @@ body {
 
 /* garantir parágrafos destacados centralizados */
 .lg {
-    float: none;
+
     display: inline-block;
     text-align: center;
 }
@@ -116,4 +116,5 @@ body {
     color: #e41414 !important;
 
 }
+
 
