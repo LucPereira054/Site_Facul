@@ -19,7 +19,6 @@ body {
 /* cabeçalhos e títulos */
 .fs-1 {
     /* ...existing code... */
-    float: none;
     /* remover float problemático */
     display: block;
     text-align: center;
@@ -38,7 +37,7 @@ body {
     max-width: 900px;
     margin: 0.6rem auto;
     text-align: center;
-    float: none;
+ 
     display: inline-block;
 }
 
@@ -116,5 +115,6 @@ body {
     color: #e41414 !important;
 
 }
+
 
 
