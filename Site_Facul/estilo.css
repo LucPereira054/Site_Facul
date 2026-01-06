@@ -20,7 +20,9 @@ body {
 .fs-1 {
     /* ...existing code... */
     /* remover float problemático */
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content:center;
     text-align: center;
     color: #E6D818;
     /* cor amarela legível */
@@ -115,6 +117,7 @@ body {
     color: #e41414 !important;
 
 }
+
 
 
 
