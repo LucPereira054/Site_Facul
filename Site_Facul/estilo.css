@@ -40,7 +40,9 @@ body {
     margin: 0.6rem auto;
     text-align: center;
  
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 /* geral para parágrafos normais */
@@ -117,6 +119,7 @@ body {
     color: #e41414 !important;
 
 }
+
 
 
 
