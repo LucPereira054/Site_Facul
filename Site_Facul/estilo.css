@@ -84,6 +84,7 @@ body {
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    border:1px;
     /* width: 18rem; <- muitas cards já têm style inline; mantemos a opção inline */
 }
 
@@ -119,6 +120,7 @@ body {
     color: #e41414 !important;
 
 }
+
 
 
 
