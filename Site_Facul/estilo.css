@@ -39,6 +39,13 @@ body {
     max-width: 900px;
     margin: 0.6rem auto;
     text-align: center;
+    background-color: rgba(77, 92, 97, 0.85); /* Cor original com transparência (0.85) */
+    color: #e7e7e7; /* Texto claro para legibilidade */
+    padding: 20px; /* Espaço interno para o texto não encostar na borda */
+    border-radius: 15px; /* Deixa as quinas arredondadas/suaves */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave ao redor da caixa */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Uma borda fininha quase invisível para dar definição */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas do texto */
  
     display: flex;
     align-items: center;
@@ -120,6 +127,7 @@ body {
     color: #e41414 !important;
 
 }
+
 
 
 
